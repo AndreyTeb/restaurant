@@ -1,0 +1,364 @@
+@media(max-width: 1150px){
+  .slick-dots{
+    margin-right: 0 !important;
+  }
+  .about{
+    &__box{
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 50px;
+    }
+    &__inner{
+      justify-content: center;
+    }
+  }
+  .dishes{
+    &__inner{
+      flex-direction: column;
+      align-items: center;
+      gap: 49px;
+    }
+    &__box{
+      max-width: 650px;
+      gap: 87px;
+    }
+  }
+}
+@media(max-width: 900px){
+  .header{
+    &__top{
+      margin-bottom: 135px;
+    }
+    &__box{
+      background-color: #337AB7;
+      display: flex;
+      flex-direction: column;
+      top: 0;
+      right: 0;
+      padding-top: 100px;
+      padding: 110px 20px 30px;
+      position: absolute;
+      transition: all .3s;
+      transform: translateY(-200%);
+    }
+    &__box.header__box--active{
+      transform: translateY(0);
+    }
+    &__menu-btn{
+      display: block;
+    }
+    &__list{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    &__contact{
+      text-align: center;
+      margin-top: 10px;
+    }
+    &__contact-link::before{
+      display: none;
+    }
+    &__contact-link{
+      padding-left: 0;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    &__contact-text{
+      display: inline-block;
+    }
+    &__link{
+      margin-top: 10px;
+      display: block;
+      text-align: center;
+    }
+    &__card-link{
+      display: none;
+    }
+    &__logo-img{
+      max-width: 80%;
+    }
+    &__subtitle{
+      font-size: 44px;
+      line-height: 52px;
+    }
+    &__title{
+      font-size: 68px;
+      line-height: 80px;
+    }
+    &__text{
+      font-size: 17px;
+      line-height: 24px;
+      margin-bottom: 45px;
+    }
+    &__text::before,
+    &__text::after{
+      display: none;
+    }
+  }
+  .about{
+    margin-bottom: 90px;
+    &__box{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    &__box-item{
+      min-height: 328px;
+      margin-bottom: 100px;
+    }
+    &__inner{
+      flex-direction: column;
+      align-items: center;
+    }
+    &__inner-title{
+      font-size: 50px;
+      line-height: 58px;
+    }
+    &__inner-desc{
+      margin-bottom: 60px;
+    }
+  }
+  .banner{
+    .container{
+      flex-direction: column;
+    }
+    &__box{
+      margin-bottom: 15px;
+      text-align: center; 
+    }
+    &__btn{
+      display: block;
+    }
+    &__title{
+      font-size: 50px;
+      line-height: 58px;
+    }
+    &__text{
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+  .menu{
+    &__title{
+      font-size: 50px;
+      line-height: 58px;
+      max-width: 300px;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+  .gallery{
+    &__title{
+      font-size: 50px;
+      line-height: 58px;
+    }
+  }
+  .cooks{
+    &__items{
+      text-align: center;
+    }
+  }
+  .cooks{
+    &__title{
+      font-size: 50px;
+      line-height: 58px;
+    }
+  }
+}
+@media(max-width: 675px){
+  .header{
+    padding-top: 20px;
+    .container{
+      text-align: center;
+    }
+    &__subtitle{
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &__title{
+      font-size: 40px;
+      line-height: 46px;
+    }
+    &__text{
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 60px;
+    }
+  }
+  .about{
+    &__inner-title{
+      font-size: 40px;
+      line-height: 46px;
+      margin-bottom: 48px;
+    }
+    &__inner-text{
+      margin-bottom: 100px;
+    }
+    &__inner-desc{
+      margin-bottom: 45px;
+    }
+  }
+  .banner{
+    padding: 20px 0 30px;
+    min-height: 357px;
+    margin-bottom: 65px;
+    object{
+      padding-top: 80px;
+    }
+  }
+  .dishes{
+    &__title{
+      margin-bottom: 70px;
+    }
+    &__line{
+      display: none;
+    }
+    &__box-item{
+      p{
+        min-width: 60px;
+        display: inline-block;
+        max-width: 100%;
+      }
+    }
+    &__img{
+      max-width: 100%;
+    }
+    &__box-img{
+      margin-right: 0;
+    }
+  }
+  .menu{
+    margin-bottom: 12px;
+    &__items{
+      padding-bottom: 106px;
+    }
+    &__item{
+      padding: 60px 30px 30px;
+      max-width: 290px;
+    }
+    &__item-img{
+      text-align: center;
+      display: inline-block;
+    }
+    &__title{
+      margin-bottom: 98px;
+    }
+  }
+  .comment{
+    padding-bottom: 30px;
+  }
+  .gallery{
+    &__title{
+      font-size: 40px;
+      line-height: 46px;
+    }
+  }
+  .cooks{
+    &__title{
+      font-size: 40px;
+      line-height: 46px;
+    }
+  }
+}
+@media(max-width: 580px){
+  .gallery{
+    margin-bottom: 20px;
+    &__title{
+      max-width: 150px;
+      margin: 0 auto 60px;
+    }
+    &__img{
+      max-width: 290px;
+      min-height: 274px;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    &__inner{
+      gap: 20px;
+    }
+  }
+  .cooks{
+    &__title{
+      margin-bottom: 80px;
+    }
+  }
+}
+@media(max-width: 414px){
+  .header{
+    &__box{
+      width: 100%;
+    }
+    &__logo{
+      z-index: 3;
+    }
+    &__logo-img{
+      max-width: 45%;
+    }
+  }
+  .about{
+    margin-bottom: 50px;
+    &__box-img{
+      margin-top: 16px;
+    }
+    &__box-item{
+      padding: 13px;
+      min-height: 276px;
+    }
+    &__box-item:nth-child(2){
+      .about__box-title{
+        margin-bottom: 29px;
+      }
+    }
+    &__box-title{
+      margin-bottom: 6px;
+    }
+    &__box-text{
+      font-size: 22px;
+      line-height: 25px;
+    }
+    &__inner-desc{
+      flex-direction: column;
+      dd{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .banner{
+    &__title{
+      font-size: 30px;
+      line-height: 34px;
+      max-width: 200px;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+  .dishes{
+    &__box-item{
+      position: relative;
+    }
+    &__box-item p:last-child{
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+    }
+    &__item-title{
+      margin: 18px auto 21px;
+    }
+  }
+  .cooks{
+    padding-top: 71px;
+    padding-bottom: 21px;
+    &__img{
+      max-width: 288px;
+      max-height: 380px;
+    }
+  }
+  .bottom{
+    &__img{
+      min-height: 567px;
+    }
+  }
+}

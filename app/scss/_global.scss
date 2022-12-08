@@ -1,0 +1,13 @@
+body{
+  @extend %opensans-400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #656363;
+  background-color: #E5E5E5;
+}
+
+.container{
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
